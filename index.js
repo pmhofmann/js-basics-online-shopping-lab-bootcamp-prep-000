@@ -15,7 +15,9 @@ var addedItem = {
   itemName:item, 
   itemPrice:Math.floor(Math.random()*100)
 };
+
 cart.push(addedItem);
+
 return `${item} has been added to your cart.`;
 }
 
