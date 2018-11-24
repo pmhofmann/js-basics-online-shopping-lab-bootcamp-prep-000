@@ -40,7 +40,7 @@ function viewCart() {
 }
 function total() {
   for (var i = 0; i<cart.length;i++){
-    cart[i].itemPrice;
+    const 0 + cart[i].itemPrice;
   }
 }
 
