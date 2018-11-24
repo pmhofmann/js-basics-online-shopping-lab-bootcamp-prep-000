@@ -13,7 +13,7 @@ function addToCart(item) {
   
 var newItem = {
   itemName:item, 
-  itemPrice:
+  itemPrice:Math.floor(Math.random()*100)
 }
 
 function viewCart() {
