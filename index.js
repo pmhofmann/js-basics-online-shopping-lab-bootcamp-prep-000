@@ -39,8 +39,9 @@ function viewCart() {
   }
 }
 function total() {
+  const nil = 0;
   for (var i = 0; i<cart.length;i++){
-    const 0 + cart[i].itemPrice;
+  nil + cart[i].itemPrice;
   }
 }
 
