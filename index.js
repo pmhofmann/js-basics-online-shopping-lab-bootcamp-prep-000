@@ -22,7 +22,7 @@ return "${item} has been added to your cart.";
 }
 
 function viewCart() {
-https://streamable.com/3nvht
+  
 function total() {
   // write your code here
 }
