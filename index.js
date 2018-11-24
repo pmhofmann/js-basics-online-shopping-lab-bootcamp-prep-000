@@ -25,7 +25,7 @@ function viewCart() {
 if (cart.length === 0){ 
 return `Your shopping cart is empty.`}
 else 
-var list = "In your cart, you have ";
+var purchases = "In your cart, you have ";
 }
 function total() {
   // write your code here
