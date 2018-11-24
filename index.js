@@ -28,14 +28,14 @@ else {
 var purchases = "In your cart, you have ";
 for (var i = 0; i <cart.length;i++);
 if (i === cart.length-1 && cart.length === 1){
-        list += (`${cart[i].itemName} at $${cart[i].itemPrice}.`);
+        purchases += (`${cart[i].itemName} at $${cart[i].itemPrice}.`);
       } else if (i === cart.length-1 && cart.length>1){
-        list += (`and ${cart[i].itemName} at $${cart[i].itemPrice}.`);
+        purchases += (`and ${cart[i].itemName} at $${cart[i].itemPrice}.`);
       } else {
-        list += (`${cart[i].itemName} at $${cart[i].itemPrice}, `);
+        purchases += (`${cart[i].itemName} at $${cart[i].itemPrice}, `);
       }
     }
-    return list;
+    return purchases;
 }
 function total() {
   // write your code here
