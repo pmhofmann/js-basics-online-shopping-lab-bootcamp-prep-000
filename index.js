@@ -18,12 +18,12 @@ var addedItem = {
 
 cart.push(addedItem);
 
-return `${item} has been added to your cart.`;
+return "${item} has been added to your cart.";
 }
 
 function viewCart() {
 if (cart.length === 0){ 
-return `Your shopping cart is empty.`}
+return "Your shopping cart is empty."}
 else {
 var purchases = "In your cart, you have ";
 for (var i = 0; i <cart.length;i++);
