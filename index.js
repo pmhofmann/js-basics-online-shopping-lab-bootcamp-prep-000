@@ -39,10 +39,11 @@ function viewCart() {
   }
 }
 function total() {
-  const nil = 0;
+  sum = 0;
   for (var i = 0; i<cart.length;i++){
-  nil + cart[i].itemPrice;
+  sum += cart[i].itemPrice;
   }
+  return sum;
 }
 
 function removeFromCart(item) {
