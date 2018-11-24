@@ -18,7 +18,7 @@ var addedItem = {
 
 cart.push(addedItem);
 
-return "${item} has been added to your cart.";
+return `${item} has been added to your cart.`;
 }
 
 function viewCart() {
