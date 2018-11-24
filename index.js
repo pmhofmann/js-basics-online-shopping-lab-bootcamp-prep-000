@@ -22,9 +22,10 @@ return `${item} has been added to your cart.`;
 }
 
 function viewCart() {
-if (cart.length === 0) 
+if (cart.length === 0){ 
 return `Your shopping cart is empty.`}
 else 
+}
 function total() {
   // write your code here
 }
