@@ -22,8 +22,7 @@ return `${item} has been added to your cart.`;
 }
 
 function viewCart() {
-  // write your code here
-}
+if ()}
 
 function total() {
   // write your code here
