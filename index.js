@@ -22,21 +22,7 @@ return "${item} has been added to your cart.";
 }
 
 function viewCart() {
-if (cart.length === 0){ 
-return "Your shopping cart is empty."}
-else {
-var purchases = "In your cart, you have ";
-for (var i = 0; i <cart.length;i++);
-if (i === cart.length-1 && cart.length === 1){
-        purchases += (`${cart[i].itemName} at $${cart[i].itemPrice}.`);
-      } else if (i === cart.length-1 && cart.length>1){
-        purchases += (`and ${cart[i].itemName} at $${cart[i].itemPrice}.`);
-      } else {
-        purchases += (`${cart[i].itemName} at $${cart[i].itemPrice}, `);
-      }
-    }
-    return purchases;
-}
+https://streamable.com/3nvht
 function total() {
   // write your code here
 }
