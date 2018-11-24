@@ -13,6 +13,7 @@ function addToCart(item) {
   
 var item = {
   itemName:item, 
+  itemPrice:
 }
 
 function viewCart() {
